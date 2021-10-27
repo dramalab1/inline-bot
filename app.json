@@ -1,0 +1,26 @@
+{
+    "name": "Inline search Bot",
+    "description": "A Normal Telegram Bot.",
+    "keywords": ["Telegram","python"],
+    "repository": "https://github.com/1Danish-00/",
+    "success_url": "https://github.com/1Danish-00",
+    "stack": "heroku-20",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Get It from @botfather",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "Put telegram string session",
+            "value": ""
+        }
+    }
+}
